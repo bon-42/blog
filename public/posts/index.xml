@@ -1,0 +1,155 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Hello Friend NG</title>
+        <link>https://example.com/posts/</link>
+        <description>Recent content in Posts on Hello Friend NG</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Tue, 21 Feb 2023 09:28:15 -0400</lastBuildDate>
+        <atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Zeroes and Ones</title>
+            <link>https://example.com/posts/2023/02/zeroes-and-ones/</link>
+            <pubDate>Tue, 21 Feb 2023 09:28:15 -0400</pubDate>
+            
+            <guid>https://example.com/posts/2023/02/zeroes-and-ones/</guid>
+            <description>Matter and antimatter,
+Day and night,
+Breathing in and breathing out,
+Present and absent,
+Everything and vaccum,
+Maybe it&amp;rsquo;s all just zeroes and ones.</description>
+            <content type="html"><![CDATA[<p>Matter and antimatter,<br>
+Day and night,<br>
+Breathing in and breathing out,<br>
+Present and absent,<br>
+Everything and vaccum,<br>
+Maybe it&rsquo;s all just zeroes and ones.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Cat Theory</title>
+            <link>https://example.com/posts/2021/08/cat-theory/</link>
+            <pubDate>Tue, 03 Aug 2021 10:59:15 -0400</pubDate>
+            
+            <guid>https://example.com/posts/2021/08/cat-theory/</guid>
+            <description> Cats are mystical creatures and they are hiding a deep secret We think they are in their own world but in fact they are meditating all the time There is a lot to learn from cats  </description>
+            <content type="html"><![CDATA[<ul>
+<li>Cats are mystical creatures and they are hiding a deep secret</li>
+<li>We think they are in their own world but in fact they are meditating all the time</li>
+<li>There is a lot to learn from cats</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>How To Create A Server In Digital Ocean and Login Remotely</title>
+            <link>https://example.com/posts/2021/08/how-to-create-a-server-in-digital-ocean-and-login-remotely/</link>
+            <pubDate>Tue, 03 Aug 2021 10:59:15 -0400</pubDate>
+            
+            <guid>https://example.com/posts/2021/08/how-to-create-a-server-in-digital-ocean-and-login-remotely/</guid>
+            <description>Digital Ocean is a cloud service provider that is gaining a lot of attention from developers in recent years. When I was doing my research in hosting a remote server for one of my project, It frequently came as a recommendation. And, despite being my first time setting up the remote server all on my own, it turned out to be a very easy process. And, if I can do it, you can too.</description>
+            <content type="html"><![CDATA[<p>Digital Ocean is a cloud service provider that is gaining a lot of attention from developers in recent years. When I was doing my research in hosting a remote server for one of my project, It frequently came as a recommendation. And, despite being my first time setting up the remote server all on my own, it turned out to be a very easy process. And, if I can do it, you can too. I will show you how easy the process is and in no time you will have your own remote server where you can host your application. I will be creating a linux based server in this tutorial. So, let’s dive in:</p>
+<p>Step 1. Create An Account
+Go to Digital Ocean and create your account.
+Once your account is created, login with your credentials
+You can skip this process if you already have an account
+Step 2. Create A Project
+On the left side of the home page, you will see + New Project option under Projects
+Fill in the Create New Project form with the name for your project, description, and purpose
+Click Create Project
+That should create a new project which you will be able to see it now under your Projects section on the left of your home page
+Click on your project name you created earlier. In my case it’s TestProject
+Step 3. Create A Linux Droplet
+Click on the Get Started with a Droplet
+You will be shown with choices of different linux images. I am going to create an “Ubuntu” one but if you prefer something else, that should be fine.
+Click Standard plan under Choose a plan section. I suggest starting with the lowest plan and scaling up as your project gets bigger. This is one of the very nice thing about cloud computing. You don’t have to put aside big chunk of money for the resources which may go unused. You can easily scale up when the time comes for your project to have more resources.
+Next, you can go directly to Choose a datacenter region and pick a datacenter closest to your web traffic. In my case, I’m picking New York
+We will now have to create SSH keys so that we can remotely login to our linux server once it is created.</p>
+<p>Click on New SSH Key
+Go to your terminal and type ssh-keygen
+It will ask you to pick a location where you want to save this key. I usually just select the default location
+Next it will ask you to pick and confirm the passphrase. This is an extra security measure. If you are just trying out, you can leave it empty
+It should look something like this</p>
+<p>bon@MacBook-Pro  ~  ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/bon/.ssh/id_rsa):
+/Users/bon/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /Users/bon/.ssh/id_rsa.
+Your public key has been saved in /Users/bon/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:rd6CpZVyiUalphaNumericsf9KPSj387G+9La0pf <a href="mailto:bon@MacBook-Pro.local">bon@MacBook-Pro.local</a>
+The key&rsquo;s randomart image is:
++&mdash;[RSA 2048]&mdash;-+
+|   o . ..        |
+|. * o o+         |
+|o=.= ++ o        |
+|++. ==++ .       |
+|o ooooO.S        |
+| o.. O . .       |
+|  ..ooo.o .      |
+|    ..=o.o .     |
+|     o==o E      |
++&mdash;-[SHA256]&mdash;&ndash;+
+Type cat ~/.ssh/id_rsa.pub
+Copy the key and paste it in the Add Public SSH Key box</p>
+<p>Give a name to your ssh key. I am calling mine Test Key</p>
+<p>Click Add SSH Key</p>
+<p>Click Create Droplet</p>
+<p>It will take few sconds and you should be able to see a new linux server</p>
+<p>Next, we will login to this new server from our local computer -PUT IMAGE HERE</p>
+<p>Step 4. Log In To Your Remote Server
+Click on the newly created linux droplet within your project. Since, we didn’t give any name to it, it’s name should star with something like ubuntu-s-4scpu-8gb-sfo-103
+Now on your left side you will see different options. Click on Networking
+Under Public Address, copy the IP Address of your server.
+Next go to your local terminal and type ssh root@YOUR_IP_ADDRESS
+It will give a prompt of Are you sure you want to continue connecting (yes/no)? and just hit enter
+Next, it will ask you to enter the password. If you didn’t created one during the ssh key creation, just hit enter again.
+If everything worked fine, it will log you into the remote server and display a message like this:</p>
+<p>Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-52-generic x86_64)</p>
+<ul>
+<li>Documentation:  <a href="https://help.ubuntu.com">https://help.ubuntu.com</a></li>
+<li>Management:     <a href="https://landscape.canonical.com">https://landscape.canonical.com</a></li>
+<li>Support:        <a href="https://ubuntu.com/advantage">https://ubuntu.com/advantage</a></li>
+</ul>
+<p>System information as of Sun Jul 14 02:10:57 UTC 2019</p>
+<p>System load:  0.0                Processes:           107
+Usage of /:   0.6% of 154.90GB   Users logged in:     0
+Memory usage: 1%                 IP address for eth0: 168.77.4.202
+Swap usage:   0%</p>
+<p>0 packages can be updated.
+0 updates are security updates.</p>
+<p>The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.</p>
+<p>Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.</p>
+<p>root@ubuntu-s-4scpu-8gb-sfo-103:~#
+Congratulations, you just created a cloud server and remotely accessed it. Please let me know if you find any errors in this article. Happy Coding!</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Python Virtual Environment Explained Simply</title>
+            <link>https://example.com/posts/2021/08/python-virtual-environment-explained-simply/</link>
+            <pubDate>Tue, 03 Aug 2021 10:59:15 -0400</pubDate>
+            
+            <guid>https://example.com/posts/2021/08/python-virtual-environment-explained-simply/</guid>
+            <description>Python is a dynamic programming language that is getting more and more popular every year. More Universities and tech bootcamps are choosing it as a first programming language to teach to the beginners. In this article, I will explain an important concept you will come across once you past the “syntax learning” phase and want to build an application i.e.python virtual environment. I try to explain it in a simple way so that it’s easier to understand for people who are just starting out.</description>
+            <content type="html"><![CDATA[<p>Python is a dynamic programming language that is getting more and more popular every year. More Universities and tech bootcamps are choosing it as a first programming language to teach to the beginners. In this article, I will explain an important concept you will come across once you past the “syntax learning” phase and want to build an application i.e.python virtual environment. I try to explain it in a simple way so that it’s easier to understand for people who are just starting out. This article is just a conceptual clarification without much codes included.</p>
+<p>For the sake of this article, I would like you to imagine a house with one kitchen , two rest rooms, two bed rooms, a study room , a guest room and a living room. Each of these different parts of the house has it’s own purpose. Like, kitchen serves the purpose of being a place where one can prepare their food. Similarly, one can use living room as a hang out place; study room as a study place; bed room as a sleeping place etc, you got the point right ? Now, say if you want to install a new stove in your kitchen, would you install it in all of these rooms or just the place where you want to use it? It maybe different in some other parallel universe but in this universe, for normal humans we just like to install the stove in the kitchen, where we need it. Similarly, if one wants to add a new computer desk to the study room of the house, they want that just to be in the study room but not every rooms of the house.</p>
+<p>Now, transfer the same concept to the computer applications we use. For every application, there are lot of building blocks and moving parts involved. Almost 100 percent of the time, when we are building an application, we need to install some packages/libraries so as to run our application smoothly. In macOS, if you need to use a library systemwide, there is Brew which helps you to install packages to your computer. This concept is similar to what chocolatey does in windows and apt does in linux. Likewise, when you are building a python application, you need to install different packages and dependencies. However, it is not logical to install those python packages system wide. And this is where the python virtual environment comes to help us. We use it to isolate our python application and install the dependencies we need, just inside our python application project folder. This also helps us in avoiding conflict between various python applications residing inside a same system.</p>
+<p>For example, if you have an application that is using an older version of Flask and another application that is using a newer version of Flask, we want to create a python virtual environment for each of those applications and install those different versions of Flask to the respective folder of each of those projects. This way we will avoid the version conflict and just use the respective libraries where we need it.</p>
+<p>There are two popular virtual environment tools for python i.e. 1. venv and 2. pipenv. The pipenv is the suggested way to manage the virtual environments and is a combination of pip and venv. If you want to learn more about pipenv, you can learn it from pipenv docs here.</p>
+<p>Thank you for reading. I hope that was helpful for you. Happy Coding!</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

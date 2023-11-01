@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hello Friend NG</title>
+    <link>https://example.com/</link>
+    <description>Recent content on Hello Friend NG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 21 Feb 2023 09:28:15 -0400</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zeroes and Ones</title>
+      <link>https://example.com/posts/2023/02/zeroes-and-ones/</link>
+      <pubDate>Tue, 21 Feb 2023 09:28:15 -0400</pubDate>
+      
+      <guid>https://example.com/posts/2023/02/zeroes-and-ones/</guid>
+      <description>Matter and antimatter,
+Day and night,
+Breathing in and breathing out,
+Present and absent,
+Everything and vaccum,
+Maybe it&amp;rsquo;s all just zeroes and ones.</description>
+    </item>
+    
+    <item>
+      <title>Cat Theory</title>
+      <link>https://example.com/posts/2021/08/cat-theory/</link>
+      <pubDate>Tue, 03 Aug 2021 10:59:15 -0400</pubDate>
+      
+      <guid>https://example.com/posts/2021/08/cat-theory/</guid>
+      <description> Cats are mystical creatures and they are hiding a deep secret We think they are in their own world but in fact they are meditating all the time There is a lot to learn from cats  </description>
+    </item>
+    
+    <item>
+      <title>How To Create A Server In Digital Ocean and Login Remotely</title>
+      <link>https://example.com/posts/2021/08/how-to-create-a-server-in-digital-ocean-and-login-remotely/</link>
+      <pubDate>Tue, 03 Aug 2021 10:59:15 -0400</pubDate>
+      
+      <guid>https://example.com/posts/2021/08/how-to-create-a-server-in-digital-ocean-and-login-remotely/</guid>
+      <description>Digital Ocean is a cloud service provider that is gaining a lot of attention from developers in recent years. When I was doing my research in hosting a remote server for one of my project, It frequently came as a recommendation. And, despite being my first time setting up the remote server all on my own, it turned out to be a very easy process. And, if I can do it, you can too.</description>
+    </item>
+    
+    <item>
+      <title>Python Virtual Environment Explained Simply</title>
+      <link>https://example.com/posts/2021/08/python-virtual-environment-explained-simply/</link>
+      <pubDate>Tue, 03 Aug 2021 10:59:15 -0400</pubDate>
+      
+      <guid>https://example.com/posts/2021/08/python-virtual-environment-explained-simply/</guid>
+      <description>Python is a dynamic programming language that is getting more and more popular every year. More Universities and tech bootcamps are choosing it as a first programming language to teach to the beginners. In this article, I will explain an important concept you will come across once you past the “syntax learning” phase and want to build an application i.e.python virtual environment. I try to explain it in a simple way so that it’s easier to understand for people who are just starting out.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/about/</guid>
+      <description>About Hello World! I am Bon Sitaula; a software developer, rookie writer and an “ok” guitar player. Some of my field of interests are languages (human and machine), neuroscience, cancer research, and emerging tech. Below are some of the tools I have had been using to navigate the human and machine world.
+Machine languages Java Python Javascript Go (Beginner)
+Frameworks Spring Django Flask React
+Databases Postgresql DB2 MongoDB
+Cloud Computing Openshift AWS Heroku Netlify</description>
+    </item>
+    
+  </channel>
+</rss>
