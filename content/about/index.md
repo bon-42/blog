@@ -33,12 +33,6 @@ Static Site Generator : Hugo \
 Hosting : Netlify | Heroku \
 Virtualization : Docker 
 
-### Human languages
-English \
-Nepali \
-Hindi \
-Spanish (Beginner) 
-
 ### Music List
 Dive \
 Awake \
