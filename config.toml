@@ -166,7 +166,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/voidandbt"
+    url  = "https://github.com/bon-42"
 
   [languages]
   [languages.en]
